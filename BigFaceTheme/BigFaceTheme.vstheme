@@ -5,27 +5,30 @@
         <Background Type="CT_RAW" Source="FF252526" />
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
-      <Color Name="H1">
+      <Color Name="Chevron">
         <Foreground Type="CT_RAW" Source="FFB9A1CF" />
+      </Color>
+      <Color Name="ContentSectionHeader">
+        <Foreground Type="CT_RAW" Source="FFB7B9C5" />
+      </Color>
+      <Color Name="ContentSectionHeaderBorder">
+        <Foreground Type="CT_RAW" Source="FF3F3F46" />
+      </Color>
+      <Color Name="H1">
+        <Foreground Type="CT_RAW" Source="FF84CEFF" />
       </Color>
       <Color Name="Hyperlink">
         <Foreground Type="CT_RAW" Source="FF0097FB" />
       </Color>
-      <Color Name="HyperlinkHover">
-        <Foreground Type="CT_RAW" Source="FF55AAFF" />
-      </Color>
       <Color Name="HyperlinkActive">
         <Foreground Type="CT_RAW" Source="FF0097FB" />
       </Color>
+      <Color Name="HyperlinkHover">
+        <Foreground Type="CT_RAW" Source="FF55AAFF" />
+      </Color>     
       <Color Name="NumberedListItem">
         <Background Type="CT_RAW" Source="FFB9A1CF" />
         <Foreground Type="CT_RAW" Source="FF252526" />
-      </Color>
-      <Color Name="NumberedListItemHover">
-        <Background Type="CT_RAW" Source="FF3E3E40" />
-      </Color>
-      <Color Name="NumberedListItemHoverBorder">
-        <Foreground Type="CT_RAW" Source="FF3E3E40" />
       </Color>
       <Color Name="NumberedListItemActive">
         <Background Type="CT_RAW" Source="FF0075CC" />
@@ -39,9 +42,6 @@
       </Color>
       <Color Name="ContentSectionHeaderBorder">
         <Foreground Type="CT_RAW" Source="FF3F3F46" />
-      </Color>
-      <Color Name="Chevron">
-        <Foreground Type="CT_SYSCOLOR" Source="FF7E6693" />
       </Color>
     </Category>
     <Category Name="ApplicationInsights" GUID="{fb17cf37-09ea-44a4-88a6-cd806fc6a24a}">
