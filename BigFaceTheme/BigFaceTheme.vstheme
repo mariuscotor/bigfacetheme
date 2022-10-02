@@ -7654,91 +7654,173 @@
       </Color>
     </Category>
     <Category Name="ThemedDialog" GUID="{5e04b2a9-e443-48db-8791-63a2a71cfbd7}">
-      <Color Name="WindowPanel">
-        <Background Type="CT_RAW" Source="FF252526" />
-        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
-      </Color>
-      <Color Name="WindowBorder">
-        <Background Type="CT_RAW" Source="FF3F3F46" />
-      </Color>
-      <Color Name="HeaderText">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
-      </Color>
-      <Color Name="Hyperlink">
-        <Background Type="CT_RAW" Source="FF0097FB" />
-      </Color>
-      <Color Name="HyperlinkHover">
-        <Background Type="CT_RAW" Source="FF55AAFF" />
-      </Color>
-      <Color Name="HyperlinkPressed">
-        <Background Type="CT_RAW" Source="FF0097FB" />
-      </Color>
-      <Color Name="HyperlinkDisabled">
-        <Background Type="CT_RAW" Source="FF656565" />
-      </Color>
-      <Color Name="SelectedItemActive">
-        <Background Type="CT_RAW" Source="FF0075CC" />
-        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="SelectedItemInactive">
-        <Background Type="CT_RAW" Source="FF3F3F46" />
-        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
-      <Color Name="ListItemMouseOver">
-        <Background Type="CT_RAW" Source="FF3F3F40" />
-        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
-      </Color>
-      <Color Name="ListItemDisabledText">
-        <Background Type="CT_RAW" Source="FF656565" />
-      </Color>
-      <Color Name="GridHeadingBackground">
-        <Background Type="CT_RAW" Source="00000000" />
-      </Color>
-      <Color Name="GridHeadingHoverBackground">
-        <Background Type="CT_RAW" Source="00000000" />
-      </Color>
-      <Color Name="GridHeadingText">
-        <Background Type="CT_RAW" Source="FF999999" />
-      </Color>
-      <Color Name="GridHeadingHoverText">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
-      </Color>
-      <Color Name="GridLine">
-        <Background Type="CT_RAW" Source="FF3F3F46" />
-      </Color>
-      <Color Name="WizardFooter">
-        <Background Type="CT_RAW" Source="FF2D2D30" />
-      </Color>
-      <Color Name="SectionDivider">
-        <Background Type="CT_RAW" Source="FF3F3F46" />
-      </Color>
-      <Color Name="WindowButton">
-        <Background Type="CT_RAW" Source="00000000" />
-      </Color>
-      <Color Name="WindowButtonHover">
-        <Background Type="CT_RAW" Source="FF3E3E40" />
-      </Color>
-      <Color Name="WindowButtonDown">
-        <Background Type="CT_RAW" Source="FF0075CC" />
-      </Color>
-      <Color Name="WindowButtonBorder">
-        <Background Type="CT_RAW" Source="00000000" />
-      </Color>
-      <Color Name="WindowButtonHoverBorder">
-        <Background Type="CT_RAW" Source="FF3E3E40" />
-      </Color>
-      <Color Name="WindowButtonDownBorder">
-        <Background Type="CT_RAW" Source="FF0075CC" />
-      </Color>
-      <Color Name="WindowButtonGlyph">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
-      </Color>
-      <Color Name="WindowButtonHoverGlyph">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
-      </Color>
-      <Color Name="WindowButtonDownGlyph">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
-      </Color>
+        <Color Name="ActionButtonBackground">
+	        <Background Type="CT_RAW" Source="FF333337" />
+        </Color>
+        <Color Name="ActionButtonBackgroundActive">
+	        <Background Type="CT_RAW" Source="FF221D46" />
+        </Color>
+        <Color Name="ActionButtonStroke">
+	        <Background Type="CT_RAW" Source="FF333337" />
+        </Color>
+        <Color Name="ActionButtonStrokeActive">
+	        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        </Color>
+        <Color Name="ActionButtonStrokeHover">
+	        <Background Type="CT_RAW" Source="FF333337" />
+        </Color>
+        <Color Name="ActionButtonText">
+	        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        </Color>
+        <Color Name="ActionButtonTextActive">
+	        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        </Color>
+		<Color Name="CloseWindowButtonHover">
+			<Background Type="CT_RAW" Source="FFE81123" />
+			<Foreground Type="CT_RAW" Source="FFFFFFFF" />
+		</Color>
+		<Color Name="GridHeadingBackground">
+			<Background Type="CT_RAW" Source="00000000" />
+		</Color>
+		<Color Name="GridHeadingHoverBackground">
+			<Background Type="CT_RAW" Source="00000000" />
+		</Color>
+		<Color Name="GridHeadingHoverText">
+			<Background Type="CT_RAW" Source="FFF1F1F1" />
+		</Color>
+		<Color Name="GridHeadingText">
+			<Background Type="CT_RAW" Source="FF999999" />
+		</Color>
+		<Color Name="GridLine">
+			<Background Type="CT_RAW" Source="FF3F3F46" />
+		</Color>
+		<Color Name="HeaderText">
+			<Background Type="CT_RAW" Source="FFF1F1F1" />
+		</Color>
+		<Color Name="Hyperlink">
+            <Background Type="CT_RAW" Source="FF0097FB" />
+        </Color>
+		<Color Name="HyperlinkOnListItemHover">
+			<Background Type="CT_RAW" Source="FF0097FB" />
+		</Color>
+		<Color Name="HyperlinkDisabled">
+			<Background Type="CT_RAW" Source="FF656565" />
+		</Color>
+		<Color Name="HyperlinkHover">
+			<Background Type="CT_RAW" Source="FF55AAFF" />
+		</Color>
+		<Color Name="HyperlinkPressed">
+			<Background Type="CT_RAW" Source="FF0097FB" />
+		</Color>
+		<Color Name="ListBox">
+			<Background Type="CT_RAW" Source="FF252526" />
+			<Foreground Type="CT_RAW" Source="FFF1F1F1" />
+		</Color>
+		<Color Name="ListBoxBorder">
+			<Background Type="CT_RAW" Source="FF434346" />
+		</Color>
+		<Color Name="ListBoxDisabled">
+			<Background Type="CT_RAW" Source="FF2D2D30" />
+		</Color>
+		<Color Name="ListBoxDisabledBorder">
+			<Background Type="CT_RAW" Source="FF434346" />
+		</Color>
+		<Color Name="ListItemDisabledText">
+			<Background Type="CT_RAW" Source="FF656565" />
+		</Color>
+		<Color Name="ListItemMouseOver">
+			<Background Type="CT_RAW" Source="FF3F3F40" />
+			<Foreground Type="CT_RAW" Source="FFF1F1F1" />
+		</Color>
+		<Color Name="PromotionBoxBackground">
+			<Background Type="CT_RAW" Source="FF000000" />
+		</Color>
+		<Color Name="PromotionBoxBorder">
+			<Background Type="CT_RAW" Source="FF000000" />
+		</Color>
+		<Color Name="PromotionBoxText">
+			<Background Type="CT_RAW" Source="FFFFFFFF" />
+		</Color>
+		<Color Name="SectionDivider">
+			<Background Type="CT_RAW" Source="FF3F3F46" />
+		</Color>
+		<Color Name="SelectedItemActive">
+			<Background Type="CT_RAW" Source="FF0075CC" />
+			<Foreground Type="CT_RAW" Source="FFFFFFFF" />
+		</Color>
+		<Color Name="SelectedItemInactive">
+			<Background Type="CT_RAW" Source="FF3F3F46" />
+			<Foreground Type="CT_RAW" Source="FFFFFFFF" />
+		</Color>
+		<Color Name="StartWindowDescription">
+			<Foreground Type="CT_RAW" Source="FFC6C8D2" />
+		</Color>
+		<Color Name="StartWindowDescriptionActive">
+			<Foreground Type="CT_RAW" Source="FFC6C8D2" />
+		</Color>
+		<Color Name="StartWindowDescriptionHover">
+			<Foreground Type="CT_RAW" Source="FFC6C8D2" />
+		</Color>
+		<Color Name="TagBackground">
+			<Background Type="CT_RAW" Source="FF323232" />
+		</Color>
+		<Color Name="TagBorder">
+			<Background Type="CT_RAW" Source="FF323232" />
+		</Color>
+		<Color Name="TagText">
+			<Background Type="CT_RAW" Source="FFFFFFFF" />
+		</Color>
+		<Color Name="TemplateNewTag">
+			<Background Type="CT_RAW" Source="FF007ACC" />
+			<Foreground Type="CT_RAW" Source="FFFFFFFF" />
+		</Color>
+		<Color Name="TemplateNewTagSelected">
+			<Background Type="CT_RAW" Source="FFFFFFFF" />
+			<Foreground Type="CT_RAW" Source="FF1E1E1E" />
+		</Color>
+		<Color Name="ValidationError">
+			<Background Type="CT_RAW" Source="FFF45252" />
+		</Color>
+		<Color Name="ValidationErrorText">
+			<Background Type="CT_RAW" Source="FFE76050" />
+		</Color>
+		<Color Name="WindowBorder">
+			<Background Type="CT_RAW" Source="FF3F3F46" />
+		</Color>
+		<Color Name="WindowButton">
+			<Background Type="CT_RAW" Source="00000000" />
+		</Color>
+		<Color Name="WindowButtonBorder">
+			<Background Type="CT_RAW" Source="00000000" />
+		</Color>
+		<Color Name="WindowButtonDown">
+			<Background Type="CT_RAW" Source="FF0075CC" />
+		</Color>
+		<Color Name="WindowButtonDownBorder">
+			<Background Type="CT_RAW" Source="FF0075CC" />
+		</Color>
+		<Color Name="WindowButtonDownGlyph">
+			<Background Type="CT_RAW" Source="FFFFFFFF" />
+		</Color>
+		<Color Name="WindowButtonGlyph">
+			<Background Type="CT_RAW" Source="FFF1F1F1" />
+		</Color>
+		<Color Name="WindowButtonHover">
+			<Background Type="CT_RAW" Source="FF3E3E40" />
+		</Color>
+		<Color Name="WindowButtonHoverBorder">
+			<Background Type="CT_RAW" Source="FF3E3E40" />
+		</Color>
+		<Color Name="WindowButtonHoverGlyph">
+			<Background Type="CT_RAW" Source="FFF1F1F1" />
+		</Color>
+		<Color Name="WindowPanel">
+			<Background Type="CT_RAW" Source="FF252526" />
+			<Foreground Type="CT_RAW" Source="FFF1F1F1" />
+		</Color>
+		<Color Name="WizardFooter">
+			<Background Type="CT_RAW" Source="FF2D2D30" />
+		</Color>
     </Category>
     <Category Name="Threads" GUID="{bb8fe807-a186-404a-81fa-d20b908ca93b}">
       <Color Name="Text">
