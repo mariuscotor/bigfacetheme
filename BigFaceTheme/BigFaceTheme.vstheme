@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="BigFaceTheme" GUID="{6cb331b4-b5fe-410b-bcee-a7dea8bd4e46}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+  <Theme Name="BigFaceTheme" GUID="{91dd7541-ac06-477f-b03c-15c11335a112}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF252526" />
@@ -1414,7 +1414,7 @@
       </Color>
       <Color Name="delegate name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFF00FB" />
+        <Foreground Type="CT_RAW" Source="FF8BB300" />
       </Color>
       <Color Name="struct name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -1454,27 +1454,27 @@
       </Color>
       <Color Name="xml doc comment - comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="xml doc comment - delimiter">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="xml doc comment - entity reference">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="xml doc comment - name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="xml doc comment - processing instruction">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="xml doc comment - text">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="xml literal - attribute name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -1494,7 +1494,7 @@
       </Color>
       <Color Name="xml literal - comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="xml literal - delimiter">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -1614,7 +1614,7 @@
       </Color>
       <Color Name="XML Doc Comment">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="mergeEditor.AcceptedLineHC">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -1857,6 +1857,18 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="MarkerFormatDefinition/CommentHighlight">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="FSharp.Printf">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="FSharp.DisposableType">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="FSharp.DisposableLocalValue">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -7160,7 +7172,7 @@
       </Color>
       <Color Name="Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8799A1" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="Identifier">
         <Background Type="CT_RAW" Source="FF252925" />
@@ -7180,7 +7192,7 @@
       </Color>
       <Color Name="XML Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF546E7A" />
+        <Foreground Type="CT_RAW" Source="FFA69D85" />
       </Color>
       <Color Name="Memory Changed">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
